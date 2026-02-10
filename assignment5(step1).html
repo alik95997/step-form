@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div class="signupinfo">
+        <h1>Sign Up</h1>
+        <p>Please provide all required details to register your business with us</p>
+
+        <div class="btn-grp">
+            <a href="./assignment5(step1).html"><button style="background-color: red;">Step 1</button></a>
+            <a href="./assignment5(step2).html"><button>Step 2 </button></a>
+            <a href="./assignment5(step3).html"><button>Step 3</button></a>
+        </div>
+    </div>
+    <fieldset class="container">
+        <legend>Register Your Business</legend>
+        <form action="">
+            <div class="business-owner">
+                <h2>Business Owner Details</h2>
+                <label for="fName"> Owner First Name :</label>
+                <input type="text" placeholder="Enter your first name" onblur="checkValue(this)">
+
+                <label for="lName"> Owner Last Name :</label>
+                <input type="text" placeholder="Enter your last name">
+            </div>
+            <p id="nameError" class="nameError"></p>
+            <div class="business-name">
+                <span for="">Gender :</span>
+                <label for="Male">Male</label>
+                <input type="radio" id="Male" name="Gender">
+                <label for="Female">Female</label>
+                <input type="radio" id="Female" name="Gender">
+            </div>
+
+            <div class="contact-name">
+                <label for="">Contact Number :</label>
+                <input type="number">
+            </div>
+
+            <div class="email">
+                <label for=""> Email :</label>
+                <input type="email">
+            </div>
+            <div>
+                <button><a href="./assignment5(step2).html">Next</a></button>
+            </div>
+        </form>
+    </fieldset>
+</body>
+<script src="app.js"></script>
+
+</html>
